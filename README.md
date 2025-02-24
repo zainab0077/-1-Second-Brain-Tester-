@@ -21,7 +21,7 @@ Open the game (if you dare 😜).
 Follow the simple rules (or don't, we won’t judge).
 Try not to rage quit. 😂
 🎯 Where to Play?
-👉 Click here to try: Game Link (Don’t blame me if your brain melts 🤡)
+👉 Click here to try: https://github.com/zainab0077/-1-Second-Brain-Tester-/blob/main/full%20script (Don’t blame me if your brain melts 🤡)
 
 ## 🛠 Built With
 99% Overthinking 🤔

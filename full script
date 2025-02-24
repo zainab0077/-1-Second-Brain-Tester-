@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't Click the Button!</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 50px;
+            background-color: #f8f8f8;
+        }
+        .button {
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .message {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Don't Click the Button! 😡</h1>
+    <button class="button" onclick="annoyUser()">DO NOT CLICK! 🚫</button>
+    <p class="message" id="message"></p>
+
+    <script>
+        let messages = [
+            "I SAID DON'T CLICK! 😡",
+            "Did you not read the title?! 🤨",
+            "You're testing my patience... 😑",
+            "Stop it! 😤",
+            "Seriously, stop clicking! 😭",
+            "Okay, now you're just messing with me... 😵",
+            "Fine, do whatever you want! 🤦‍♂️"
+        ];
+        
+        let clickCount = 0;
+        function annoyUser() {
+            if (clickCount < messages.length) {
+                document.getElementById('message').innerText = messages[clickCount];
+                clickCount++;
+            } else {
+                document.getElementById('message').innerText = "You win... I'm done talking 😶";
+            }
+        }
+    </script>
+</body>
+</html>
